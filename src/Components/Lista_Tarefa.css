@@ -1,0 +1,15 @@
+.Taref_Compl {
+    display: flex;
+    flex-direction: column;
+    background-color:  rgba(157, 10, 183, 0.507);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 45vw;
+    padding: 2%;
+    border-radius: 45px;
+    box-shadow: 10px 10px rgba(120, 10, 151, 0.94);
+}
+
+
+/* rgb(110, 145, 173)
+rgba(16, 83, 137, 0.822) */
