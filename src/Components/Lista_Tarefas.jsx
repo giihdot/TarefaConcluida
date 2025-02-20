@@ -1,51 +1,49 @@
 import "./Lista_Tarefa.css";
+import Tarefas from "./Botao";
 
-function Tarefa(props) {
+function Tarefa() {
   return (
     <>
+      <h1> TAREFAS COTIDIANAS </h1>
       <div className="Junt1">
         <div className="Junt2">
-          <div className="Taref_Compl">
-            <h3> {props.tarefa1} </h3>
-            <p> {props.texto1} </p>
-          </div>
-          <br />
-          <div className="Taref_Compl">
-            <h3> {props.tarefa2} </h3>
-            <p> {props.texto2} </p>
-          </div>
-          <br />
-          <div className="Taref_Compl">
-            <h3> {props.tarefa3} </h3>
-            <p> {props.texto3} </p>
-          </div>
-          <br />
-          <div className="Taref_Compl">
-            <h3> {props.tarefa4} </h3>
-            <p> {props.texto4} </p>
-          </div>
+          <Tarefas
+            tarefa="ARRUMAR A CAMA 🛏"
+            texto="Comece o dia com uma pequena vitória! Deixe seu quarto organizado."
+          />
+
+          <Tarefas tarefa="BEBER ÁGUA 🥤" texto="Hidrate-se durante o dia." />
+
+          <Tarefas
+            tarefa="ORGANIZAR A CASA 🏡"
+            texto="Pode ser uma mesa, um armário, um ambiente dentro de sua própia casa."
+          />
+
+          <Tarefas
+            tarefa="OUVIR UMA MÚSICA QUE TE FAZ FELIZ 🎧"
+            texto="Dê um play na sua música favoita e aproveite o momento."
+          />
         </div>
-        <br />
         <div className="Junt2">
-          <div className="Taref_Compl">
-            <h3> {props.tarefa5} </h3>
-            <p> {props.texto5} </p>
-          </div>
-          <br />
-          <div className="Taref_Compl">
-            <h3> {props.tarefa6} </h3>
-            <p> {props.texto6} </p>
-          </div>
-          <br />
-          <div className="Taref_Compl">
-            <h3> {props.tarefa7} </h3>
-            <p> {props.texto7} </p>
-          </div>
-          <br />
-          <div className="Taref_Compl">
-            <h3> {props.tarefa8} </h3>
-            <p> {props.texto8} </p>
-          </div>
+          <Tarefas
+            tarefa="FAZER UMA CAMINHADA OU ALONGAMENTO 🧘🏻‍♂️"
+            texto="Um pouco de movimento sempre faz bem!"
+          />
+
+          <Tarefas
+            tarefa="MOMENTO DE DESCONEXÃO 📴"
+            texto="Tire um tempo longe das telas para relaxar."
+          />
+
+          <Tarefas
+            tarefa="PLANEJAR UMA REFEIÇÃO SAUDÁVEL 🥗"
+            texto="Um pouco de movimento sempre faz bem!"
+          />
+
+          <Tarefas
+            tarefa="FAZER ALGO POR VOCÊ 💆🏻‍♀️"
+            texto="Pode ser um skincare, tomar um chá... Algo que faça você se sentir melhor."
+          />
         </div>
       </div>
     </>

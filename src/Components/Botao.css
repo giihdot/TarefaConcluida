@@ -1,5 +1,54 @@
 .Feito {
-    text-decoration: line-through;
-    color: rgb(25, 73, 25);
+  text-decoration: line-through;
+  color: rgb(25, 73, 25);
+}
 
+.Taref_Compl {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(157, 10, 183, 0.507);
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 35vw;
+  padding: 2%;
+  /* border-radius: 45px; */
+  box-shadow: 10px 10px 5px rgba(144, 15, 180, 0.94);
+}
+
+h3 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: rgba(157, 10, 183, 0.507);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+}
+
+p {
+  display: flex;
+  width: 35vw;
+}
+
+button {
+  color: rgba(0, 0, 0, 0.507);
+  background-color: rgba(157, 10, 183, 0.507);
+  width: 15vw;
+  align-self: flex-end;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(144, 15, 180, 0.94);
+    color: rgb(0, 0, 0);
+}
+
+.concluido {
+  text-decoration: line-through;
+  color: rgba(157, 10, 183, 0.507);
 }

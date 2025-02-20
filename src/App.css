@@ -1,8 +1,7 @@
-h1 {
-  text-align: center;
-  color:  rgb(0, 0, 0);
-  text-shadow: 3px -3px rgba(144, 15, 180, 0.94);
-  background-color: rgba(157, 10, 183, 0.507);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 4em;
+.Limite {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  height: 115vh;
+   align-self: center;
 }
