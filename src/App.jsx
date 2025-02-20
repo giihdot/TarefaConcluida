@@ -28,7 +28,7 @@ function App() {
         texto7="Um pouco de movimento sempre faz bem!"
         
         tarefa8="FAZER ALGO POR VOCÊ 💆🏻‍♀️"
-        texto8="Pode ser um skincare, ler um livro, tomar um chá... Algo que faça você se sentir melhor e mais conectada com seu eu interior."
+        texto8="Pode ser um skincare, tomar um chá... Algo que faça você se sentir melhor."
       />
       ;
     </>
