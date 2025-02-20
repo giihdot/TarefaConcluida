@@ -7,7 +7,7 @@ function Tarefa(props) {
         <h3> {props.tarefa1} </h3>
         <p> {props.texto1} </p>
       </div>
-<br/>
+      <br/>
       <div className="Taref_Compl">
         <h3> {props.tarefa2} </h3>
         <p> {props.texto2} </p>
